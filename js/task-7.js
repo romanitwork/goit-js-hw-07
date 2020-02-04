@@ -6,5 +6,5 @@ const spanElement = document.getElementById("text");
 fontElement.addEventListener("input", fontSizeChange);
 
 function fontSizeChange(e) {
-  spanElement.style.fontSize = e.currentTarget.value + 'px';
+  spanElement.style.fontSize = e.currentTarget.value + "px";
 }
