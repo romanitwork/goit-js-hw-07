@@ -1,6 +1,6 @@
 "use strict";
 
-const validInput = document.getElementById("validation-input");
+const validInput = document.querySelector("#validation-input");
 validInput.addEventListener("blur", inputFunc);
 
 function inputFunc(e) {

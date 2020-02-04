@@ -1,7 +1,7 @@
 "use strict";
 
-const inputName = document.getElementById("name-input");
-const outputName = document.getElementById("name-output");
+const inputName = document.querySelector("#name-input");
+const outputName = document.querySelector("#name-output");
 
 inputName.addEventListener("input", showName);
 function showName(e) {

@@ -1,7 +1,7 @@
 "use strict";
 
-const fontElement = document.getElementById("font-size-control");
-const spanElement = document.getElementById("text");
+const fontElement = document.querySelector("#font-size-control");
+const spanElement = document.querySelector("#text");
 
 fontElement.addEventListener("input", fontSizeChange);
 

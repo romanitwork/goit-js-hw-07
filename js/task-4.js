@@ -1,6 +1,6 @@
 "use strict";
 let counterValue = 0;
-const numberValue = document.getElementById("value");
+const numberValue = document.querySelector("#value");
 
 function increment() {
   counterValue++;
