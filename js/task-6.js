@@ -1,7 +1,7 @@
 "use strict";
 
 const validInput = document.getElementById("validation-input");
-validInput.addEventListener("focus", inputFunc);
+validInput.addEventListener("blur", inputFunc);
 
 function inputFunc(e) {
   if (validInput.value.length == validInput.getAttribute("data-length")) {
