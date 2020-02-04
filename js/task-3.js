@@ -22,9 +22,7 @@ const fragment = document.createDocumentFragment();
 const list = document.querySelector("#gallery");
 
 images.forEach(imagelist => {
-  list.insertAdjacentHTML("beforeend", "<li></li>");
-  list.insertAdjacentHTML(
-    "beforeend",
-    `<img src=${imagelist.url} alt=${imagelist.alt}>`
-  );
+  list.insertAdjacentHTML("beforeend", `<li><img src=${imagelist.url} alt=${imagelist.alt}></li`);
+
+
 });
