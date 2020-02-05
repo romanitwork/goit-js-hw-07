@@ -18,7 +18,6 @@ const images = [
   }
 ];
 
-const fragment = document.createDocumentFragment();
 const list = document.querySelector("#gallery");
 
 images.forEach(imagelist => {
